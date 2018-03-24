@@ -2,15 +2,15 @@ test_jupyter_notebook
 ==== 
 
 ## 起動
-$ source activate py3k
+$ source activate py3k  
 (py3k) am-no-MacBook-Air:pkgs am$ jupyter notebook
 
 ## ノートを作成
-Jupyter Notebookをインストール後、ターミナルで
+Jupyter Notebookをインストール後、ターミナルを開き下記のコマンドを実行する。
 
 $ jupyter notebook
 
-実行され、現在のディレクトリ上でノートが作成できる。
+現在のディレクトリ上でノートが作成できる。
 
 [New]タブから[Python3]を選択する。
 
