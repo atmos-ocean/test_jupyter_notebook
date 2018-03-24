@@ -1,9 +1,10 @@
 # test_jupyter_notebook
 
-am-no-MacBook-Air:pkgs am$ source activate py3k
+## 起動
+$ source activate py3k
 (py3k) am-no-MacBook-Air:pkgs am$ jupyter notebook
 
-[1] ノートを作成
+## ノートを作成
 Jupyter Notebookをインストール後、ターミナルで
 
 $ jupyter notebook
@@ -12,9 +13,8 @@ $ jupyter notebook
 
 [New]タブから[Python3]を選択します。
 
-
-[2] Tips
-数式表記
+## Tips
+### 数式表記
 Code -> Markdown
 $$
 \begin{align}
@@ -22,7 +22,7 @@ $$
 \end{align}
 $$
 
-jupyter notebook 内でのグラフ表示
+### jupyter notebook 内でのグラフ表示
 Code
 %matplotlib inline
 import matplotlib.pyplot as plt
@@ -31,9 +31,9 @@ x = np.linspace(0, 10, 100)
 y  = np.sin(x)
 plt.plot(x, y)
 
-[3] ipynb形式で保存
+## ipynb形式で保存
 そのノートの[File]→[Download as]→[Notebook (.ipynb)]へと進むと、Macでしたら勝手にダウンロードされるはずです。
 
-[4] Github Gistにアップロード
+## Github Gistにアップロード
 ファイルをGithub Gistにドラッグ＆ドロップしてアップロードし、[Create Public Gist]をクリックします。
 
